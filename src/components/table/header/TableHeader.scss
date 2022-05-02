@@ -1,0 +1,25 @@
+.table-header {
+    background: #474955;
+    height: 100px;
+}
+
+
+.table-header__cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.header-cell__id {
+   justify-content: space-around;
+   gap: 0;
+}
+
+.ascend {
+    transform: rotateX(180deg);
+}

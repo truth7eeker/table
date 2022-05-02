@@ -1,0 +1,15 @@
+.cell {
+    padding: 10px;
+    border: #E3E6EC 1px solid;
+    display: flex;
+}
+
+
+.cell__id {
+    justify-content: center;
+    align-items: center;
+}
+
+.cell__title, .cell__description {
+    align-items: center;
+}

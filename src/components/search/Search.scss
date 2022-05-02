@@ -1,0 +1,22 @@
+.search-label {
+    position: relative;
+}
+
+.search-input {
+    background-color:#5A5C66;
+    color: #B2B7BF;
+    border: none;
+    width: 55%;
+    padding: 15px 24px;
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    top: 0;
+    right: 24px;
+    z-index: 5;
+    width: 15px;
+    height: 45px;
+    cursor: pointer;
+}
