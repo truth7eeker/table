@@ -4,10 +4,10 @@ import './TableFooter.scss'
 import Digits from './Digits'
 
 function TableFooter() {
-  const { digitEls, next, prev, currPage, back, forward} = Digits()
+  const { digitEls, next, prev, currPage, back, forward, posts } = Digits()
 
   return (
-    <div className='table-footer'>
+    <div className='table-footer' style={{display: posts.length ? 'flex' : 'none'}}>
       <button className={currPage === 1 ? 'button-disabled' : 'button-active'} onClick={prev}>
         <Link to={`/table/${back()}`}>Назад</Link>
       </button>

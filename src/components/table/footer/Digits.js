@@ -9,6 +9,7 @@ function Digits() {
     const dispatch = useDispatch()
     const digits = useSelector(state => state.page.pages)
     const currPage = useSelector(state => state.page.currPage)
+    const posts = useSelector(state => state.posts.list)
   
     // Bottom digits JSX
     const digitEls = digits.map((digit) => 
@@ -48,7 +49,7 @@ function Digits() {
         return page
     }
 
-    return {currPage, next, prev, digitEls, forward, back}
+    return { currPage, next, prev, digitEls, forward, back, posts }
 }
 
 export default Digits
